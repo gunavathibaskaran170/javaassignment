@@ -8,7 +8,6 @@ public class Event {
     private int capacity;
     private int ticketsSold;
     
-    
     public Event(String eventId, String name, String date, String venue, int capacity) {
         this.eventId = eventId;
         this.name = name;
@@ -18,7 +17,6 @@ public class Event {
         this.ticketsSold = 0;
     }
     
-
     public boolean isSoldOut() {
         return ticketsSold >= capacity;
     }
@@ -38,7 +36,6 @@ public class Event {
         System.out.println("Available: " + (capacity - ticketsSold));
     }
     
-    // Getters and setters
     public String getEventId() {
         return eventId;
     }

@@ -18,7 +18,7 @@ public class EventAppMain {
         Attendee a2 = new Attendee("A002", "Jane Smith", "jane@example.com", "VIP", false);
         Attendee a3 = new Attendee("A003", "Bob Johnson", "bob@example.com", "Regular", false);
         Attendee a4 = new Attendee("A004", "Alice Brown", "alice@example.com", "VIP", false);
-        
+          
         a1.addEvent(concert.getEventId());
         a2.addEvent(concert.getEventId());
         a3.addEvent(conference.getEventId());
